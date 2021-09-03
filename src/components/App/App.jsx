@@ -1,12 +1,13 @@
 import { WrapperFeedBack } from "./App.styled";
-import { FeedBackButtons } from "components/FeedBackButtons/FeedBackButtons";
+import { FeedBack } from "components/FeedBack/FeedBack";
 
 export const App = () => {
   return (
     <WrapperFeedBack>
-      <FeedBackButtons
+      <FeedBack
         title="Please leave feedback"
         titleStatistic="Statistics"
+        titleNoStatistic="No feedback given"
       />
     </WrapperFeedBack>
   );
